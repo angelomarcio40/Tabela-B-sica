@@ -1,0 +1,30 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+h2{
+    background-color:#616161;
+    color:#FFF;
+    padding: 15px;
+}
+
+/* Estilo da tabela */ 
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td, th{
+    padding: 10px;
+}
+
+table, td, th{
+    border: 1px solid #000;
+    text-align: left;
+}
+/* Final do estilo da tabela */
