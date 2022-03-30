@@ -10,6 +10,7 @@ h2{
     background-color:#616161;
     color:#FFF;
     padding: 15px;
+    text-align: center;
 }
 
 /* Estilo da tabela */ 
@@ -25,6 +26,30 @@ td, th{
 
 table, td, th{
     border: 1px solid #000;
+    text-align: left;
+}
+/* mudar a cor dos titulos da tabela */
+th{
+    background-color: #3E5902;
+    color: #FFF;
+    height: 50px;
+}
+/* Tabelas zebradas */
+/* even = linhas pares */
+tr:nth-child(even){
+    background-color: #3d590236;
+}
+/* odd = linhas imoares */
+tr:nth-child(odd){
+    background-color: #e6f8be36;
+}
+/* mudar a cir das kinhas ao apssar o mouse */
+tr:hover{
+    background: #3d59026e;
+}
+/* adicionada legebda a tabela */
+caption{
+    caption-side: bottom;
     text-align: left;
 }
 /* Final do estilo da tabela */
